@@ -2,7 +2,7 @@ import random
 
 
 def merge_sort(ls):
-    return ls if len(ls) == 1 else merge(merge_sort(ls[:len(ls) // 2]), merge_sort(ls[len(ls) // 2:]))
+    return ls if len(ls) <= 1 else merge(merge_sort(ls[:len(ls) // 2]), merge_sort(ls[len(ls) // 2:]))
 
 
 def merge(xs, ys):
