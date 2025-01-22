@@ -1,1 +1,1 @@
-# algorithms
+# studying algorithms
